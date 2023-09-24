@@ -36,7 +36,7 @@ const Auth = () => {
       localStorage.setItem('token', JSON.stringify(response.data.token));
       dispatch(globalActions.toggleAuth());
       localStorage.setItem('isLogin', true);
-      if(login) navigate('/inbox')
+      if (login) navigate('/inbox');
     } catch (error) {
       console.log(error);
       setAlertSeverity('error');
