@@ -59,7 +59,7 @@ const Auth = () => {
       
     }
     passwordRef.current.value = emailRef.current.value = "";
-    login ? AuthHandler(Obj) : AuthHandler(Obj)
+    login ? AuthHandler(Obj) : AuthHandler(Obj);
   }
 
 
@@ -102,7 +102,7 @@ const Auth = () => {
   );
 }
 
-export default Auth
+export default Auth;
 
 
 
