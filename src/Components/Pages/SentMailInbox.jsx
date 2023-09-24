@@ -1,4 +1,4 @@
-import React, { useEffect,useState } from 'react'
+import React, { useEffect, useState } from 'react';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import axios from 'axios';
@@ -47,4 +47,4 @@ const SentMailInbox = () => {
         </div>))
 }
 
-export default SentMailInbox
+export default SentMailInbox;
