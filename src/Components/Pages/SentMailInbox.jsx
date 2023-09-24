@@ -16,7 +16,7 @@ const SentMailInbox = () => {
                 setMails(response.data.data);
             } catch (error) {
                 console.log(error);
-                toast.error('couldnt fetch mails')
+                toast.error('couldnt fetch mails');
             }
         }
         getAllMails()
