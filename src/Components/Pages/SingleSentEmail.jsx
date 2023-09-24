@@ -57,4 +57,4 @@ const SingleSentEmail = () => {
   );
 };
 
-export default SingleSentEmail;
+export default SingleSentEmail
