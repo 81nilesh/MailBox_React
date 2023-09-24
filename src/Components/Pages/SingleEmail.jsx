@@ -1,5 +1,5 @@
-import React from 'react'
-import { useParams } from 'react-router-dom'
+import React from 'react';
+import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import axios from 'axios'
 const SingleEmail = () => {
@@ -50,4 +50,4 @@ const SingleEmail = () => {
     </div>
 }
 
-export default SingleEmail
+export default SingleEmail;
