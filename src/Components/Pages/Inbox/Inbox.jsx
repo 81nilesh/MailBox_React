@@ -46,8 +46,8 @@ const Inbox = () => {
 
       toast.success(response.data.msg);
     } catch (error) {
-      console.log(error);
-      toast.error(error.response.data.msg);
+      console.log(error)
+      toast.error(error.response.data.msg)
     }
   }
   return (
