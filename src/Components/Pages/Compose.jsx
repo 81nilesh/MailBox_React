@@ -20,7 +20,7 @@ const Compose = () => {
         body: contentPlainText,
         subject:subjectRef.current.value,
         
-        opened:false
+        opened: false
       }
       receiverRef.current.value = subjectRef.current.value = '';
       const token = JSON.parse(localStorage.getItem('token'));
@@ -28,7 +28,7 @@ const Compose = () => {
      
       toast.success(response.data.msg);
     } catch (error) {
-      console.log(error);
+      console.log(error)
       toast.error(error.response.data.msg);
 
     }
